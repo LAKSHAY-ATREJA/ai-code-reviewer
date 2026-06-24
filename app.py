@@ -262,7 +262,7 @@ if "code_input" not in st.session_state:
 def get_llm(api_key: str, temp: float = 0) -> ChatGroq:
     """Initialise a Groq LLM instance."""
     return ChatGroq(
-        model="llama3-8b-8192",
+        model="llama-3.1-8b-instant",
         temperature=temp,
         groq_api_key=api_key,
         max_tokens=2000,
