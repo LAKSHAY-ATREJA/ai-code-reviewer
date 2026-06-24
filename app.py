@@ -63,6 +63,7 @@ st.markdown("""
     padding: 1rem 1.2rem;
     margin: 0.5rem 0;
     border-left: 4px solid;
+    color: #1a1a1a;
 }
 .issue-bug { background: #fef2f2; border-color: #ef4444; }
 .issue-security { background: #faf5ff; border-color: #8b5cf6; }
@@ -70,8 +71,8 @@ st.markdown("""
 .issue-style { background: #eff6ff; border-color: #3b82f6; }
 .issue-ok { background: #f0fdf4; border-color: #22c55e; }
 
-.issue-title { font-weight: 600; font-size: 0.9rem; }
-.issue-desc { font-size: 0.83rem; color: #666; margin-top: 0.3rem; line-height: 1.5; }
+.issue-title { font-weight: 600; font-size: 0.9rem; color: #1a1a1a; }
+.issue-desc { font-size: 0.83rem; color: #333333; margin-top: 0.3rem; line-height: 1.5; }
 .issue-fix { font-size: 0.82rem; color: #16a34a; margin-top: 0.3rem; font-style: italic; }
 
 .stat-box {
@@ -81,9 +82,10 @@ st.markdown("""
     text-align: center;
     border: 1px solid #e5e7eb;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    color: #1a1a1a;
 }
-.stat-val { font-size: 1.8rem; font-weight: 700; }
-.stat-lbl { font-size: 0.72rem; color: #9ca3af; margin-top: 0.2rem; }
+.stat-val { font-size: 1.8rem; font-weight: 700; color: #1a1a1a; }
+.stat-lbl { font-size: 0.72rem; color: #333333; margin-top: 0.2rem; }
 
 .code-block {
     background: #1e1e2e;
@@ -113,6 +115,7 @@ st.markdown("""
     margin: 0.3rem 0;
     font-size: 0.82rem;
     border-left: 3px solid #6366f1;
+    color: #1a1a1a;
 }
 
 .test-header {
